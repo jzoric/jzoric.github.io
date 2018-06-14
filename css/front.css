@@ -71,6 +71,12 @@ a {
     padding: 15px;
     text-decoration: none;
 }
+a.company-link {
+    padding: 0;
+}
+a.company-link:hover{
+   color: #47d9cb;
+}
 .description {
     display: none;
 }

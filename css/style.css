@@ -1,0 +1,74 @@
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background-color: #464646;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
+}
+
+a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+a.fa-github:hover {
+  color: black;
+}
+
+a.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+a.fa-linkedin:hover {
+  color: #0073b0;
+}
+
+a.fa-envelope:hover {
+  color: #db4437;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent);
+}
+
+.avatar {
+  width: 188px;
+  height: 233px;
+  background: url("../img/avatar.png") no-repeat;
+  border-radius: 100%;
+}
+
+.title {
+  font-size: 4em;
+}
+
+.work {
+  padding-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.work > a {
+  color: #47d9cb;
+  text-decoration: none;
+  padding: 0;
+}
+
+.work > a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 450px) {
+  .work {
+    font-size: 1.2em;
+  }
+  .work > a {
+    color: #47d9cb;
+  }
+}
